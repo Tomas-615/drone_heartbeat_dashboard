@@ -4,14 +4,14 @@ import plotly.express as px
 from datetime import datetime, timedelta
 import random
 import json
-import pytz
+#import pytz
 import folium
 from folium.plugins import MarkerCluster, Draw
 from streamlit_folium import st_folium
 
 # ===================== 配置与初始化 =====================
 st.set_page_config(page_title="无人机任务系统", layout="wide")
-beijing_tz = pytz.timezone("Asia/Shanghai")
+#beijing_tz = pytz.timezone("Asia/Shanghai")
 
 DRONE_ID = "UAV-007"
 HEARTBEAT_INTERVAL = 2  # 秒
